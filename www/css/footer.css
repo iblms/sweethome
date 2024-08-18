@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+    background-color: #F3F0EA !important;
+}
+footer {
+    color: black;
+    margin-top: 310px;
+}
+
+.all-foot1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 115px;
+
+}
+
+.all-foot1 p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+.footer_part1, .footer_part2, .footer_part3{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+footer ul {
+    list-style: none;
+    font-size: 15px;
+    padding-left: 0 !important;
+}
+
+footer li {
+    padding-bottom: 11px;
+}
+
+.footer_part2 li:hover{
+    text-decoration: underline;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    /* opacity: 50%; */
+}
+
+
+.all-foot2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top: 60px;
+    margin-bottom: 10px;
+    
+}
+.second_footer {
+    display: flex;
+    border-top: inset;
+    gap: 499px;
+    padding-top: 15px;
+    /* justify-content: space-between;
+    flex-wrap: wrap; */
+}
+.logo_social {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+.logo_payment {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-right: 20px;
+}
+.text-mid {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1136px) {
+    .all-foot1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        padding-top: 60px;
+    }
+
+    .footer_part1, .footer_part2, .footer_part3 {
+        align-items: center;
+    }
+
+    .second_footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px !important;
+        padding-top: 20px;
+    }
+
+    .logo_social {
+        padding-left: 0;
+    }
+
+    .logo_payment {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    .second_footer {
+        gap: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1602px) {
+    .second_footer {
+        gap: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 1448px) {
+    .second_footer {
+        gap: 285px;
+    }
+    
+}
+
+@media screen and (max-width: 1202px) {
+    .second_footer {
+        gap: 195px;
+        /* gap: 43px; */
+
+    }
+    
+}
