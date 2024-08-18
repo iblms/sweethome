@@ -24,6 +24,7 @@ ob_start(); ?>
 
     <div>
         <div class="scrollmenu">
+            
             <a href="#"><img class="no-img-product" src="<?=PROJECT_FOLDER ?>src/images/no_image.svg" alt=""></a>
             <a href="#"><img class="no-img-product" src="<?=PROJECT_FOLDER ?>src/images/no_image.svg" alt=""></a>
             <a href="#"><img class="no-img-product" src="<?=PROJECT_FOLDER ?>src/images/no_image.svg" alt=""></a>
